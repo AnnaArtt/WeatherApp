@@ -1,0 +1,38 @@
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  .title {
+    position: relative;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #4793ff;
+  }
+}
+
+.input_city {
+  width: 196px;
+  height: 30px;
+
+  border: none;
+  border-radius: 10px;
+  padding-left: 5px;
+  outline: none;
+
+  background-color: #4793ff;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,60 @@
+.information_card_wrapper {
+  position: relative;
+  background-color: #4f4f4f;
+  width: 27%;
+  min-height: 45%;
+
+  border-radius: 10px;
+  padding: 15px;
+
+  .box_main_information {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    .temperature {
+      position: relative;
+      font-size: 76px;
+      line-height: 0.7;
+      font-weight: 500;
+      color: #4793ff;
+    }
+    .day {
+      position: relative;
+      margin-top: 20px;
+      font-size: 35px;
+      line-height: 0.7;
+      font-weight: 400;
+      color: #ffffff;
+    }
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  .box_extra_information {
+    margin-top: 10px;
+    .time,
+    .city_name {
+      position: relative;
+      font-size: 15px;
+      font-weight: 400;
+      color: #939cb0;
+    }
+
+    .time {
+      margin-top: 5px;
+    }
+  }
+}
+
+.light_theme .information_card_wrapper {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  .day {
+    color: #000000;
+  }
+}

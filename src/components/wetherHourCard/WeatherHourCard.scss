@@ -1,0 +1,24 @@
+.card_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  height: 30vh;
+  width: 90%;
+  background-color: #4f4f4f;
+  // border-radius: 5px;
+  border: 1px solid#000000;
+  border-width: 0px 1px 0px 0px;
+  color: #ffffff;
+}
+
+.card_wrapper:last-child {
+  border: none;
+}
+
+.light_theme .card_wrapper {
+  background-color: #ffffff;
+  color: #4f4f4f;
+  border: 1px solid #ffffff;
+}
